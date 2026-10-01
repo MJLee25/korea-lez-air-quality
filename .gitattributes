@@ -1,0 +1,7 @@
+# Cache signatures depend on exact archived bytes. Do not normalize these.
+OnlineResource2/** -text
+paper/** -text
+results/** -text
+*.png binary
+*.pdf binary
+*.rds binary

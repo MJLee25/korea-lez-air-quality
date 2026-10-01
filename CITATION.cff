@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the associated article and the actual repository release used."
+title: "Monitoring-based assessment of spatial and seasonal air-quality associations with low-emission zones in South Korea: Online Resource 2"
+type: software
+authors:
+  - family-names: Lee
+    given-names: Minju
+  - family-names: Kim
+    given-names: Mijeong
+repository-code: "https://github.com/MJLee25/korea-lez-air-quality"
