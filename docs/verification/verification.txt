@@ -1,0 +1,7 @@
+Monthly analysis consistency verification: PASS
+Verified SDM outcome/specification combinations: 131
+All sample sizes, cohort counts, overlap audits and pre-adoption summaries match.
+All final HAC(12) SDM intervals, percentage scales and additive decompositions match.
+65 decompositions independently checked using explicit matrix inversion.
+Maximum explicit-inverse discrepancy: 4.440892e-14
+These checks validate numerical consistency, not causal identification or source-data validity.

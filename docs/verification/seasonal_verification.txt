@@ -1,0 +1,6 @@
+Joint seasonal comparison verification: PASS
+All 40 marginal SEs reproduce the previously reported HAC(12) values.
+Maximum marginal SE discrepancy: 3.019807e-14
+Covariance includes cross-season dependence at the actual calendar gaps.
+Holm adjustment covers 10 omnibus tests and, separately, all 60 pairwise tests.
+Comparisons are exploratory and do not validate the fitted conditional mean.
