@@ -59,7 +59,7 @@ The primary balanced sample comprises **247 districts × 156 months = 38,532 dis
 
 | File | Contents |
 |---|---|
-| `02_final_data.csv` | Corrected IDW panel, release `20260920-re`: 38,844 rows and 36 columns before the island exclusions. |
+| `02_final_data.csv` | Data not included in the file due to copyright issues. |
 | `nearest_panel.csv` | Common-support nearest-station panel with matching district-month keys and annual covariates. |
 | `analysis_coordinates.csv` | Derived analysis-district centroids, with fields `id`, `x`, `y`, and `epsg`; 247 districts in EPSG:5179. |
 
