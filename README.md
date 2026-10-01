@@ -103,7 +103,6 @@ Original hourly and daily observations, station-level extracts, prepared observa
 └── README.md
 ```
 
-This structure corresponds to the `_260930` package. The separate numbered, English-commented `_260930-my` edition is not required to use this repository.
 
 ## Software requirements
 
