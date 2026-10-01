@@ -95,7 +95,6 @@ Original hourly and daily observations, station-level extracts, prepared observa
 │   ├── tables/
 │   ├── previews/
 │   └── README.md
-├── paper/                              # Manuscript and Online Resource 1 LaTeX sources
 ├── docs/                               # Result index, data requirements and verification
 ├── scripts/                            # Setup, isolated execution and release checks
 ├── requirements.txt
