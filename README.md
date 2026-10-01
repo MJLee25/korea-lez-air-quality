@@ -197,5 +197,3 @@ If you use these resources, please cite the associated manuscript and the actual
 Repository: [MJLee25/korea-lez-air-quality](https://github.com/MJLee25/korea-lez-air-quality). The code and aggregate results are prepared for a versioned public release upon publication. No publication DOI or release identifier is asserted by this local package. Machine-readable citation metadata are in [CITATION.cff](CITATION.cff); manuscript availability wording is in [CODE_AVAILABILITY.md](docs/CODE_AVAILABILITY.md).
 
 Third-party source data remain subject to their providers' access and redistribution terms. This package does not distribute the restricted observation-level inputs or grant rights to redistribute them. A standalone code license has not been included in this prepared package.
-
-For questions about the scripts or required input schema, contact the corresponding author, **Mijeong Kim** (m.kim@ewha.ac.kr), or open an issue in the public repository once available.
