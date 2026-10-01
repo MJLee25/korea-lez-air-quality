@@ -1,0 +1,13 @@
+{
+  "method_variable_groups": 34,
+  "max_error": {
+    "n_difference": 0.0,
+    "MAE_difference": 1.4210854715202004e-12,
+    "RMSE_difference": 1.5205614545266144e-12,
+    "bias_difference": 4.330757974457811e-12
+  },
+  "all_support_counts_match": true,
+  "support_groups": 2496,
+  "colocated_cv_groups": 0,
+  "rain_valid_station_months": 14555
+}

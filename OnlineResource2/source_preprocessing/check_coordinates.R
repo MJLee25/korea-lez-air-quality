@@ -1,0 +1,10 @@
+args <- commandArgs(trailingOnly = TRUE)
+suppressPackageStartupMessages(library(sf))
+lookup <- read.csv(args[1], fileEncoding = "UTF-8-BOM")
+points <- st_as_sf(lookup, coords = c("longitude", "latitude"), crs = 4326)
+xy <- st_coordinates(st_transform(points, 5179))
+delta <- sqrt((xy[, 1] - lookup$x)^2 + (xy[, 2] - lookup$y)^2)
+answer <- data.frame(coordinate_pairs = nrow(lookup), max_distance_error_m = max(delta),
+                     pairs_over_1mm = sum(delta > 0.001))
+write.csv(answer, args[2], row.names = FALSE)
+print(answer)

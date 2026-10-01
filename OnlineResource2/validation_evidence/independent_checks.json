@@ -1,0 +1,123 @@
+{
+  "source": "코드및데이터/EMA_보완자료_분석결과_20260920-re/02_final_data.csv",
+  "sha256": "370d28bdf2cbf1fe2b03c6644f4a41447f042ebfa79872817c1123041aed9811",
+  "docx_sha256": "fa656fb3e8f2013451e4f051139e12b41ae464e3c24dbaf6f437a92d995dbdd5",
+  "rows": 38844,
+  "columns": 36,
+  "missing_total": 0,
+  "infinite_total": 0,
+  "duplicate_full_rows": 0,
+  "dtypes": {
+    "ID": "int64",
+    "year": "int64",
+    "month": "int64",
+    "시도": "object",
+    "시군구": "object",
+    "시군구_large": "object",
+    "avg_temp": "float64",
+    "sun_time": "float64",
+    "stagnant_days": "float64",
+    "avg_wind": "float64",
+    "avg_humid": "float64",
+    "avg_rain": "float64",
+    "daily_km": "float64",
+    "cars_per_capita": "float64",
+    "도시지역_인구": "float64",
+    "도시지역_면적": "float64",
+    "residential_area": "float64",
+    "commercial_area": "float64",
+    "industrial_area": "float64",
+    "green_area_per_capita": "float64",
+    "urban_density": "float64",
+    "pop_density": "float64",
+    "NO2_도시대기": "float64",
+    "NO2_도로변대기": "float64",
+    "CO_도시대기": "float64",
+    "CO_도로변대기": "float64",
+    "SO2_도시대기": "float64",
+    "SO2_도로변대기": "float64",
+    "O3_도시대기": "float64",
+    "O3_도로변대기": "float64",
+    "PM10_도시대기": "float64",
+    "PM10_도로변대기": "float64",
+    "processing_version": "object",
+    "rain_processing": "object",
+    "air_history_fully_verified": "bool",
+    "stagnant_days_definition": "object"
+  },
+  "panel": {
+    "duplicate_keys": 0,
+    "missing_expected_keys": 0,
+    "unexpected_keys": 0,
+    "regions": 249,
+    "distinct_ID": 249,
+    "min_months_per_ID": 156,
+    "max_months_per_ID": 156,
+    "unique_ID_geography": true,
+    "unique_geography_ID": true,
+    "analysis_rows": 38532,
+    "analysis_regions": 247,
+    "excluded": [
+      {
+        "ID": 98,
+        "시도": "경상북도",
+        "시군구": "울릉군"
+      },
+      {
+        "ID": 180,
+        "시도": "인천광역시",
+        "시군구": "옹진군"
+      }
+    ],
+    "chronologically_sorted": true,
+    "LEZ_columns_present": []
+  },
+  "range_checks": {
+    "invalid_month": 0,
+    "negative_rain": 0,
+    "negative_wind": 0,
+    "humidity_outside_0_100": 0,
+    "sunshine_outside_0_24": 0,
+    "low_wind_equivalent_outside_calendar": 0,
+    "negative_pollution": 0
+  },
+  "annual_within_year_nonconstant_groups": {
+    "daily_km": 0,
+    "cars_per_capita": 0,
+    "도시지역_인구": 0,
+    "도시지역_면적": 0,
+    "residential_area": 0,
+    "commercial_area": 0,
+    "industrial_area": 0,
+    "green_area_per_capita": 0,
+    "urban_density": 0,
+    "pop_density": 0
+  },
+  "cohorts_under_existing_unverified_timing": {
+    "0": 174,
+    "61": 25,
+    "79": 35,
+    "97": 13
+  },
+  "reported_rain_status_recount": {
+    "official_total_matches_raw_sum": 14578,
+    "official_month_unavailable": 39,
+    "official_differs_from_raw": 11
+  },
+  "CV_seasonal_pooled_max_difference": {
+    "n_difference": 0.0,
+    "MAE_difference": 8.881784197001252e-16,
+    "RMSE_difference": 1.4210854715202004e-14,
+    "bias_difference": 2.220446049250313e-16
+  },
+  "manifest": {
+    "files": 55,
+    "all_matched": true
+  },
+  "legacy_shared_rows": 38844,
+  "legacy_key_matched_geography_mismatches": {
+    "시도": 0,
+    "시군구": 0,
+    "시군구_large": 0
+  }
+}

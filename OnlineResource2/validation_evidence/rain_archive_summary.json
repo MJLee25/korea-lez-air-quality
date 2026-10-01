@@ -1,0 +1,8 @@
+{
+  "archived_station_years": 1219,
+  "monthly_cells": 14628,
+  "all_selection_and_monthly_value_checks_pass": true,
+  "raw_bytes_hash_matches": 0,
+  "lf_normalized_hash_matches": 1219,
+  "hash_note": "Stored source_sha256 hashes LF-normalized HTML text, not the CRLF bytes inside the archive."
+}

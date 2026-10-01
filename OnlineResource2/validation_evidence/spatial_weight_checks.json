@@ -1,0 +1,10 @@
+{
+  "grid_points": 14676,
+  "weight_entries": 19560,
+  "duplicate_ID_grid_keys": 0,
+  "nonpositive_weights": 0,
+  "max_row_sum_error": 1.63202784619898e-14,
+  "grid_id_matches_row_index": true,
+  "missing_grid_ids": 0,
+  "region_IDs_match": true
+}
