@@ -1,0 +1,3 @@
+"dataset","first_year","last_year","units","months","observations","missing","controls"
+"dat12_24",2012,2024,247,156,38532,0,"pop_density; industrial_area; commercial_area; green_area_per_capita; daily_km; cars_per_capita; avg_temp; sun_time; stagnant_days; avg_wind; avg_humid; avg_rain"
+"dat13_24",2013,2024,247,144,35568,0,"pop_density; industrial_area; commercial_area; green_area_per_capita; daily_km; cars_per_capita; avg_temp; sun_time; stagnant_days; avg_wind; avg_humid; avg_rain"

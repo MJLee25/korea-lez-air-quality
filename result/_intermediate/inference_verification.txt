@@ -1,0 +1,7 @@
+Joint-information and calendar-time score-HAC verification: PASS
+Verified outcome/specification combinations: 131
+All four covariance matrices are symmetric and positive semidefinite to numerical tolerance.
+Maximum pairwise-kernel discrepancy with calendar gaps: 5.329071e-15
+Maximum scaled analytic/numeric impact-gradient discrepancy: 9.946254e-10
+Maximum scaled analytic/numeric information discrepancy (primary NO2 and CO): 4.850138e-08
+These are computational checks, not a validation of the identifying or dependence assumptions.
