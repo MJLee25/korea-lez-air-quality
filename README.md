@@ -33,6 +33,6 @@ The `data/` directory and the derived datasets `result/_intermediate/analysis_pa
 
 - `result/`: manuscript tables, figures, and associated CSV files.
 - `result/_intermediate/`: analysis panels, estimates, and diagnostic results.
-- `result/_checks/`: final verification records.
+- `result/_checks/`: Figure 1 cohort mapping, package versions, and R session information.
 
 Outputs follow the manuscript numbering: Tables 1–4, Tables S1–S11, and Figures 1–3 and S1.
