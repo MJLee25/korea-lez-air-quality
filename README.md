@@ -27,6 +27,8 @@ Run scripts in numerical order. At step 06, choose either `06_model_tables.R` or
 
 Required R packages include `dplyr`, `tidyr`, `did`, `spdep`, `splm`, `plm`, `numDeriv`, `ggplot2`, and `sf`. Input files must be available at the paths specified in the scripts.
 
+The `data/` directory and the derived datasets `result/_intermediate/analysis_panel.csv` and `result/_intermediate/nearest_analysis_panel.csv` are excluded from this repository due to copyright and redistribution restrictions.
+
 ## Outputs
 
 - `result/`: manuscript tables, figures, and associated CSV files.
