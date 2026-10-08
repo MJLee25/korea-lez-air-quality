@@ -1,7 +1,7 @@
 # Air Quality and Low-Emission Zones in South Korea
 This repository contains the analysis code and result tables for the paper:
 
-**Monitoring-based assessment of spatial and seasonal air-quality associations with low-emission zones in South Korea.**
+**Monitoring-based assessment of spatial and seasonal air-quality associations with low-emission zones in South Korea**
 
 R scripts for assessing spatial and seasonal associations between permanent low-emission zone (LEZ) rollout and air quality across 247 South Korean districts during 2012–2024.
 
