@@ -17,7 +17,6 @@ The analysis covers NO₂, CO, SO₂, O₃, and PM₁₀. Estimates are interpre
 | `04_hac_inference.R` | Computes HAC standard errors for spatial associations and examines residual dependence. |
 | `05_seasonal_comparisons.R` | Tests cross-season differences and applies Holm adjustments for multiple testing. |
 | `06_model_tables.R` | Exports main and supplementary model results as LaTeX and CSV tables. |
-| `06_model_tables_re.R` | Provides an alternative table exporter with significance stars and additional formatting. |
 | `07_figures.R` | Produces event-study and seasonal comparison figures (Figures 2, 3, and S1). |
 | `08_study_map.R` | Maps the study area and policy adoption cohorts (Figure 1). |
 | `09_supplementary_tables.R` | Exports station prediction validation and policy timing sensitivity results (Tables S8 and S11). |
@@ -25,7 +24,6 @@ The analysis covers NO₂, CO, SO₂, O₃, and PM₁₀. Estimates are interpre
 | `11_check_results.R` | Checks numerical consistency, sample composition, and required output files. |
 
 ## Running the Analysis
-Run scripts in numerical order. At step 06, choose either `06_model_tables.R` or `06_model_tables_re.R`; both write to the same table filenames.
 
 Required R packages include `dplyr`, `tidyr`, `did`, `spdep`, `splm`, `plm`, `numDeriv`, `ggplot2`, and `sf`. Input files must be available at the paths specified in the scripts.
 
