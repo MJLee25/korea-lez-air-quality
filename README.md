@@ -30,9 +30,8 @@ Required R packages include `dplyr`, `tidyr`, `did`, `spdep`, `splm`, `plm`, `nu
 The `data/` directory and the derived datasets `result/_intermediate/analysis_panel.csv` and `result/_intermediate/nearest_analysis_panel.csv` are excluded from this repository due to copyright and redistribution restrictions.
 
 ## Outputs
-
 - `result/`: manuscript tables, figures, and associated CSV files.
-- `result/_intermediate/`: analysis panels, estimates, and diagnostic results.
+- `result/_intermediate/`: estimates, diagnostic results, and saved model information; analysis panels are excluded.
 - `result/_checks/`: Figure 1 cohort mapping, package versions, and R session information.
 
 Outputs follow the manuscript numbering: Tables 1–4, Tables S1–S11, and Figures 1–3 and S1.
